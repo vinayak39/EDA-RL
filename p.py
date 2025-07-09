@@ -5,7 +5,7 @@ import streamlit as st
 
 # Streamlit UI
 st.set_page_config(layout="wide")
-st.title("Ralph Lauren Size Curve Forecast EDA")
+st.title("Ralph Lauren Exploratory Data Analysis")
 
 # Load Data
 uploaded_file = st.file_uploader("Upload Forecast CSV File", type="csv")
